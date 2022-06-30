@@ -1,0 +1,22 @@
+.contenedor{
+    display: flex;
+    width: auto;
+    padding: 100px 0;
+    margin: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #EEF3F5;
+}
+.contenedor-p{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin-left: 50px;
+}
+.contenedor-slides{
+    flex: 5;
+    margin: 0;
+    padding: 0;
+}

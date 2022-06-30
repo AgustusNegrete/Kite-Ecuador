@@ -1,0 +1,45 @@
+.contenedor-testimonials{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor-comentario{
+    display: flex;
+}
+.testimonials-head{
+    margin-bottom: 40px;
+}
+.contenedor-test-all{
+    padding: 20px;
+    max-width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenedor-review-icon{
+    margin-top: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.facebook{
+    height: 20px;
+    color: #036084;
+    margin: 0 5px;
+}
+.google{
+    height: 20px;
+    color:#036084;
+    margin: 0 5px;
+}
+.tripadvisor{
+    height: 30px;
+    color: #036084;
+    margin: 0 5px;
+}
+.carousel-fondo{
+    background-color: #EEF3F5;
+    padding: 100px 0;
+}

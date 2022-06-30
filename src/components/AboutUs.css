@@ -1,0 +1,21 @@
+.container-AboutUs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px ;
+    background-image: url("../components/img/Untitled-1.png") ;
+    background-size: 100%;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+.container-ourstory{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 500px;
+}
+.container-video{
+    height: 400px;
+    width: 500px;
+    background-color: aquamarine;
+}

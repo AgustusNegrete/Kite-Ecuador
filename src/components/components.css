@@ -1,0 +1,83 @@
+.of-top{
+    border-bottom: 2px solid black;
+}
+.foto-offer{
+    height: auto;
+    width: 175px;
+    border-bottom: 2px solid black;
+}
+.offer-card{
+    width: 200px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.p-container{
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://mls.mls-ecuador.com/api/images/rs1700461/rs1700461_img-2_large.jpg);
+    height: 1000px;
+    background-attachment: fixed;
+    padding: 20px 25px;
+}
+.pack-header{
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.pack-card{
+    text-align: start;
+    padding: 15px 25px 15px 25px;
+    width: 350px;
+    height: 700px;
+    background-color: #fff;
+    margin-top: 40px;
+}
+.pack-card button{
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    background-color: #036084;
+    color: white;
+    border: 1px solid gray;
+}
+.pack-container{
+    display: flex;
+    justify-content: space-between;
+}
+.pack-header{
+    color: #fff;
+}
+.money{
+    color: #67DB44;
+    margin-left: 10px;
+}
+.review-head{
+    border-bottom: 2px solid black;
+}
+.review-body{
+    display: flex;
+    justify-content: space-between;
+}
+.review-card{
+    height: 500px;
+    width: 450px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.review-container{
+    background-color: #036084;
+    padding: 20px 
+}
+video{
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+

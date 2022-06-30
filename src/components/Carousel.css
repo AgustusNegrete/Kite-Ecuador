@@ -1,0 +1,63 @@
+.contenedor-services{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagen-card{
+    width: 200px;
+}
+.contenedor-services{
+    border-radius: 2px;
+    width: 100%;
+}
+.contenedor-card{
+    display: flex;
+    width: 290px;
+    flex-direction: column;
+    margin-right: 15px;
+    flex-wrap: wrap;
+}
+.contenedor-body-card{
+    padding: 20px;
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contenedor-head-card{
+    background-size: cover;
+    background-image: url('https://www.duotonesports.com/fileadmin/user_upload/Mono_2022_rider_review_thumbnail-_1067x1600.png');
+    height: 300px;
+}
+.btn{
+    color: #036084;
+    border:1px  solid #036084 ;
+    width: 100%;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #036084;
+}
+.contenedor-head-card-2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://news.blr.com/app/uploads/sites/3/2019/04/Accommodation.jpg');
+    height: 300px;
+}
+
+.contenedor-head-card-3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://ae01.alicdn.com/kf/HTB1sz7RXRSD3KVjSZFqq6A4bpXaI/Aqua-Marina-Beast-320-81-15cm-Inflatable-Stand-Up-Paddle-Sup-Board-Set.jpg');
+    height: 300px;
+}
+
+.contenedor-head-card-4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://airush.com/wp-content/uploads/22_Airush_Gallery_Foil-Boards_Team-Foil_img-01.jpg');
+    height: 300px;
+}
+
+
+

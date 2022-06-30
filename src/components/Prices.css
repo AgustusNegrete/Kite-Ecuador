@@ -1,0 +1,70 @@
+.contenedor-card-1{
+    height: 450px;
+    width: 350px;
+    background-image: url("../components/img/Big_Air_Training_Days_banner1280_x_2320_Website_mobile.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-card-2{
+    height: 450px;
+    width: 350px;
+    background-image: url("../components/img/Big_Air_Training_Days_banner1280_x_2320_Website_mobile.jpg");
+    
+    background-size: cover;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.contenedor-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-prices{
+    padding: 100px 0;
+}
+.contenedor-header-prices{
+    margin-bottom: 40px;
+}
+.contenedor-card-head{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.precios{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.descripcion-Course{
+    color: #fff;
+}
+.contenedor-card-body{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#EEF3F5;
+}
+.contenedor-card-body-2{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    color: #bbb;
+    
+    height: 1.2px;
+    width: 60%;
+}
+

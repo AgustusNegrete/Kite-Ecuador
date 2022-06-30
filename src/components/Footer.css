@@ -1,0 +1,53 @@
+.contenedor-footer{
+    background-color: #036084;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 200px;
+}
+.img-iko{
+    width: 100px;
+    margin-top: 20px;
+}
+.img-whale{
+    width: 200px;
+}
+.contenedor-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-opt a{
+    color: #fff;
+    margin: 0 15px;
+}
+.icon-facebook{
+    height: 20px;
+}
+.icon-instagram{
+    height: 20px;
+}
+.icon-youtube{
+    height: 20px;
+}
+.body-uselinks{
+    display: flex;
+    flex-direction: column;
+}
+.body-uselinks a{
+    text-decoration: none;
+}
+.body-uselinks a:hover{
+    color: #036084;
+}
+.head-uselinks{
+    color: #fff;
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+.head-social{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.contenedor-detalles{
+    color: #fff;
+}
