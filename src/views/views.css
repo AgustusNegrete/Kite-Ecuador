@@ -16,10 +16,24 @@
     
 }
 .nav-opt {
-    margin: 40px 10px 0 380px;
+    margin: 40px 10px 0 650px;
+    display: flex;
+    justify-content: center;
+}
+#eldrop{
+    margin-left: 10px;
+}
+#botones{
+    background-color: transparent;
+    color: #333333;
+    font-weight: bold;
+    border: none;
+    box-shadow: none;
+    padding: 0 0 10px 0;
+
 }
 .nav-opt a{
-    margin: 0 10px;
+    margin: 5px 10px;
     color: #333333;
     text-decoration: none;
     font-weight: 700;
@@ -61,7 +75,7 @@
     align-items: flex-start;
     padding: 0 0 0 150px;
     height: 100px;
-    z-index: 2;
+    z-index: 5;
     position: fixed;
 }
 .navbar.active{
@@ -70,7 +84,7 @@
     justify-content: space-between;
     padding: 0 150px;
     height: 100px;
-    z-index: 2;
+    z-index: 5000;
     width: 100%;
     position: fixed;
 }

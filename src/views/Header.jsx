@@ -45,10 +45,17 @@ const Header = (props) => {
                 </div>
                 <div className='nav-opt'>
                     <a href='/'>Home</a>
-                    <a href='school'>Our School</a>
-                    <a href='accomodations'>Accomodations</a>
-                    <a href='tips'>Tips & info</a>
-                    <a href='contact'>Contact & Booking</a>
+                    <a href='/accomodations'>Accomodations</a>
+                    <div class="dropdown" id='eldrop'>
+                    <button class="btn btn-secondary dropdown-toggle" id='botones' type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Our School
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/kitesurf">Kitesurfing</a></li>
+                      <li><a class="dropdown-item" href="/surf">Surf & SUP</a></li>
+                      <li><a class="dropdown-item" href="/foil">Foil</a></li>
+                    </ul>
+                  </div>
               </div>
         </nav>
       </div>

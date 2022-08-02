@@ -1,0 +1,199 @@
+.contenedor-logos{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-logos img{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+.accomodation-contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.contenedor-accomodation-2{
+    padding: 150px;
+    background-color: #EEF3F5;
+}
+.accomodation-container{
+    padding: 200px;
+}
+.accomodation-container p{
+    font-weight: bold;
+    margin-top: 15px;
+}
+.contenedor-card-camp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.noseve{
+    visibility: hidden;
+}
+.card-camp-text ul{
+    font-weight: bold;
+}
+.card-camp-text li{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* From uiverse.io by @Vikikos */
+.card-camp {
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #036084;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+   }
+   
+   .card-camp::before {
+    content: '$290 to $310';
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 700;
+   }
+   
+   .card-camp div {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+    background-color: #fff;
+    padding: 15px;
+   }
+   
+   .card-camp:hover div {
+    transform: translateY(-30px);
+   }
+
+   .card-camp-2 {
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #036084;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+   }
+   
+   .card-camp-2::before {
+    content: '$375 to $ 400';
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 700;
+   }
+   
+   .card-camp-2 div {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+    background-color: #fff;
+    padding: 15px;
+   }
+   
+   .card-camp-2:hover div {
+    transform: translateY(-30px);
+   }
+
+   .card-camp-3 {
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #036084;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+   }
+   
+   .card-camp-3::before {
+    content: '$410 to $430';
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 700;
+   }
+   
+   .card-camp-3 div {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+    background-color: #fff;
+    padding: 15px;
+   }
+   
+   .card-camp-3:hover div {
+    transform: translateY(-30px);
+   }
+
+   .card-camp-4 {
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #036084;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+   }
+   
+   .card-camp-4::before {
+    content: '$440 to $460';
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 700;
+   }
+   
+   .card-camp-4 div {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+    background-color: #fff;
+    padding: 15px;
+   }
+   
+   .card-camp-4:hover div {
+    transform: translateY(-30px);
+   }
