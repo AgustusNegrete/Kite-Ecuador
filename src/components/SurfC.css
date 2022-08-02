@@ -1,0 +1,27 @@
+.img-surfC{
+    width: 100%;
+    padding-top: 100px;
+}
+.descripcion-surfC{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+.contenedor-surfC-2{
+    display: flex;
+    text-align: left;
+    padding: 110px;
+    background-color: #fff;
+}
+.contenedor-surfC-3{
+    display: flex;
+    text-align: left;
+    padding: 110px;
+    background-color: #EEF3F5;
+}
+.descripcion-surfC-2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}

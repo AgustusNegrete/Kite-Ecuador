@@ -1,8 +1,23 @@
+
 import * as React from 'react';
 import './Carousel.css'
+import {
+    Modal,
+    ModalOverlay,
+    ModalContent,
+    ModalHeader,
+    ModalFooter,
+    ModalBody,
+    ModalCloseButton,
+    Button,
+    useDisclosure,
+    ChakraProvider,
+  } from '@chakra-ui/react'
 
-const Carousels = () =>{
+
     
+    function BasicUsage() {
+        const { isOpen, onOpen, onClose } = useDisclosure()
     return(
         <div className="contenedor-services">
             <div className='contenedor-card'>
@@ -45,4 +60,4 @@ const Carousels = () =>{
     )
 }
 
-export default Carousels
+export default BasicUsage

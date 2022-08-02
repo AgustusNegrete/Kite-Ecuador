@@ -12,7 +12,7 @@ const Prices = () =>{
             <div className='contenedor-cards'>
                 <div className='contenedor-card-1'>
                     <div className='contenedor-card-head'>
-                    <p className='precios'>153$</p>
+                    <p className='precios'>$153</p>
                     <p className='descripcion-Course'>4 Hour Course</p>
                     </div>
                     <div className='contenedor-card-body'>
@@ -27,7 +27,7 @@ const Prices = () =>{
                 </div>
                 <div className='contenedor-card-2'>
                 <div className='contenedor-card-head'>
-                <p className='precios'>299$</p>
+                <p className='precios'>$299</p>
                     <p className='descripcion-Course'>10 Hour Course</p>
                     </div>
                     <div className='contenedor-card-body-2'>
@@ -42,7 +42,7 @@ const Prices = () =>{
                 </div>
                 <div className='contenedor-card-1'>
                 <div className='contenedor-card-head'>
-                    <p className='precios'>399$</p>
+                    <p className='precios'>$399</p>
                     <p className='descripcion-Course'>14 Hour Course</p>
                     </div>
                     <div className='contenedor-card-body'>

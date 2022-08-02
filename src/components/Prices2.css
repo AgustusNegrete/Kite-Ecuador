@@ -1,0 +1,99 @@
+.contenedor-card-kiteC{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 80px;
+}
+/* From uiverse.io by @alexruix */
+.card {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    outline: .3em solid #c1c0c0;
+    background-size: cover;
+    background-image: url("../components/img/Big_Air_Training_Days_banner1280_x_2320_Website_mobile.jpg");
+    cursor: default;
+   }
+   
+   .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    background-color: rgba(232, 19, 19, 0);
+    transition: background-color 1s;
+   }
+   
+   .card-info {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 1.5em;
+    text-align: center;
+    transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+   }
+   
+   .card-bio {
+    padding:0 10px;
+    text-align: center;
+    transform: translate(5%,40%);
+    transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+    visibility: hidden;
+    color: #fff;
+   }
+   
+   .card-bio p {
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 1.5em;
+   }
+   
+   
+   /*Text*/
+   .title {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #fff;
+   }
+   
+   .title::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    margin: 0 auto 4%;
+    background-color: #fff;
+   }
+   
+   .subtitle {
+    font-weight: 400;
+    line-height: 1em;
+    visibility: hidden;
+   }
+   
+   
+   
+   /*Hover*/
+   .card:hover::before {
+    background-color: #036084;
+    opacity: .85;
+   }
+   
+   .card:hover .card-info {
+    transform: translateX(-30%);
+    visibility: hidden;
+   }
+   
+   .card:hover .card-bio {
+    transform: translate(0,40%);
+    opacity: 1;
+    visibility: visible;
+    z-index: 4;
+    
+   }
+   
+   
+   

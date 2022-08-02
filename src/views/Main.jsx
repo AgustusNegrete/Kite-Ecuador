@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Header from './Header';
 import VideoBack from '../components/VideoBack';
 import Lessons from '../components/Lessons';
@@ -19,7 +19,7 @@ const Home = () => {
                 <VideoBack/>
             </div>
             <div>
-                <AboutUs/>
+                <AboutUs />
             </div>
             <div >
                 <Lessons/>

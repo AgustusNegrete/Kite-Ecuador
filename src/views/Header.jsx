@@ -44,7 +44,7 @@ const Header = (props) => {
                   </label>
                 </div>
                 <div className='nav-opt'>
-                    <a href='home'>Home</a>
+                    <a href='/'>Home</a>
                     <a href='school'>Our School</a>
                     <a href='accomodations'>Accomodations</a>
                     <a href='tips'>Tips & info</a>

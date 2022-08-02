@@ -1,0 +1,217 @@
+.img-foilC{
+    width: 100%;
+    padding-top: 100px;
+}
+.descripcion-foilC{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 40px;
+}
+.contenedor-foilC-3{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 110px;
+    background-color: #EEF3F5;
+}
+.contenedor-foilC-3 h5{
+    font-weight: bold;
+}
+.contenedor-foilC-3 h5 {
+    margin-top: 20px;
+}
+/* From uiverse.io by @satyamchaudharydev */
+.cardF {
+    background-image: url('https://kiteecuador.com/wp-content/uploads/2018/04/ProFoil_ActionPics_Highres-600x400.jpg');
+    background-size: cover;
+    --hover-bg: #036084;
+    --hover-text: #fff;
+    width: 43ch;
+    height: 33ch;
+    text-align: center;
+    padding: 1.5em;
+    padding-block: 1.8em;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  .cardF2 {
+    background-image: url('https://kiteecuador.com/wp-content/uploads/2018/04/ProFoil_ActionPics_Highres-8-600x400.jpg');
+    background-size: cover;
+    --hover-bg: #036084;
+    --hover-text: #fff;
+    width: 43ch;
+    height: 33ch;
+    text-align: center;
+    padding: 1.5em;
+    padding-block: 1.8em;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  .cardF3 {
+    background-image: url('https://kiteecuador.com/wp-content/uploads/2018/04/ProFoil_ActionPics_Highres-7-600x400.jpg');
+    background-size: cover;
+    --hover-bg: #036084;
+    --hover-text: #fff;
+    width: 43ch;
+    height: 33ch;
+    text-align: center;
+    padding: 1.5em;
+    padding-block: 1.8em;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .cardF__body {
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1em;
+  }
+  
+  .cardF > :not(span) {
+    transition: .3s cubic-bezier(.6,.4,0,1);
+  }
+  
+  .cardF > strong {
+    display: block;
+    font-size: 1.4rem;
+    letter-spacing: -.035em;
+    color: #fff;
+  }
+  .cardF2__body {
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1em;
+  }
+  
+  .cardF2 > :not(span) {
+    transition: .3s cubic-bezier(.6,.4,0,1);
+  }
+  
+  .cardF2 > strong {
+    display: block;
+    font-size: 1.4rem;
+    letter-spacing: -.035em;
+    color: #fff;
+  }
+  .cardF3__body {
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1em;
+  }
+  
+  .cardF3 > :not(span) {
+    transition: .3s cubic-bezier(.6,.4,0,1);
+  }
+  
+  .cardF3 > strong {
+    display: block;
+    font-size: 1.4rem;
+    letter-spacing: -.035em;
+    color: #fff;
+  }
+  .cardF span {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--hover-text);
+    border-radius: 5px;
+    font-weight: bold;
+    top: 100%;
+    transition: all .3s cubic-bezier(.6,.4,0,1);
+  }
+  
+  .cardF:hover span {
+    top: 0;
+    font-size: 1em;
+    padding: 50px;
+  }
+  
+  .cardF:hover {
+    background: var(--hover-bg);
+    
+  }
+  
+  .cardF2 span {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--hover-text);
+    border-radius: 5px;
+    font-weight: bold;
+    top: 100%;
+    transition: all .3s cubic-bezier(.6,.4,0,1);
+  }
+  
+  .cardF2:hover span {
+    top: 0;
+    font-size: 1em;
+    padding: 0 50px;
+  }
+  
+  .cardF2:hover {
+    background: var(--hover-bg);
+  }
+  .cardF3 span {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--hover-text);
+    border-radius: 5px;
+    font-weight: bold;
+    top: 100%;
+    transition: all .3s cubic-bezier(.6,.4,0,1);
+  }
+  
+  .cardF3:hover span {
+    top: 0;
+    font-size: 1em;
+    padding: 0 50px;
+  }
+  
+  .cardF3:hover {
+    background: var(--hover-bg);
+  }
+
+  .cardF:hover>div,.cardF:hover>strong {
+    opacity: 0;
+  }
+  .cardF2:hover>div,.cardF2:hover>strong {
+    opacity: 0;
+  }
+  .cardF3:hover>div,.cardF3:hover>strong {
+    opacity: 0;
+  }

@@ -15,6 +15,7 @@
     flex-direction: column;
     margin-right: 15px;
     flex-wrap: wrap;
+    box-shadow: 3px 3px #ccc ;
 }
 .contenedor-body-card{
     padding: 20px;
@@ -30,13 +31,16 @@
     height: 300px;
 }
 .btn{
-    color: #036084;
-    border:1px  solid #036084 ;
-    width: 100%;
-}
-.btn:hover{
     color: #fff;
     background-color: #036084;
+    width: 100%;
+    margin-top: 5px;
+    box-shadow: 3px 3px #ccc;
+}
+.btn:hover{
+    color: #036084;
+    border:1px  solid #036084 ;
+    box-shadow: none;
 }
 .contenedor-head-card-2{
     background-size: cover;
